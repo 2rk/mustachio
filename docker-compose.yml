@@ -1,0 +1,8 @@
+
+youtrack:
+  build: youtrack/
+  ports:
+    - "80:80"
+  volumes:
+    - ~/Source/Docker/mustachio-data:/root/teamsysdata
+    - ~/Source/Docker/mustachio-backup:/root/teamsysdata-backup
